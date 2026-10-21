@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8
+onnx>=1.16
+reportlab>=4
+pyinstaller>=6.6

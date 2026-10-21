@@ -1,0 +1,17 @@
+PySide6>=6.7,<7
+Pillow>=10.3
+opencv-python-headless>=4.9
+numpy>=1.26,<3
+img2pdf>=0.5.1
+pikepdf>=9.0
+PyMuPDF>=1.24.2
+pdf2docx>=0.5.8
+python-docx>=1.1
+openpyxl>=3.1
+# rapidocr's own helpers (rapidocr-onnxruntime itself is installed with --no-deps so it does not pull a 2nd OpenCV)
+pyclipper>=1.3
+shapely>=2.0
+six
+pyyaml
+tqdm
+onnxruntime>=1.18        # CPU. For NVIDIA/AMD/Intel GPU on Windows use onnxruntime-directml instead (see README)
